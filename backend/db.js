@@ -4,7 +4,7 @@ async function connectDB() {
   try {
     const connection = await oracledb.getConnection({
       user: 'COMP214_M25_zor_90',
-      password: 'password',  // ← ⚠️ 記得改做你真實密碼
+      password: 'password', 
       connectString: 'oracle1.centennialcollege.ca:1521/SQLD'
     });
 

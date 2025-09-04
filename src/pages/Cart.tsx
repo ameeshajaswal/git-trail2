@@ -221,7 +221,6 @@ const Cart = () => {
                     onClick={handleCheckout}
                     className="w-full bg-golden hover:bg-golden-light text-coffee-dark font-semibold py-3"
                     size="lg"
-                    onClick={handleCheckout}
                   >
                     Proceed to Checkout
                   </Button>
